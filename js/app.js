@@ -4,51 +4,51 @@ var userName = prompt('Hello, what is your name?');
 alert('Hi, ' + userName + '. Let\'s play a guessing game.');
 
 //asking user series of 5 questions
-var question1 = prompt('Do I have a dog?').toUpperCase();
-if (question1 === 'YES' || question1 === 'Y') {
+var questionDog = prompt('Do I have a dog?').toUpperCase();
+if (questionDog === 'YES' || questionDog === 'Y') {
   alert('Yep, I do! His name is Pooka and he is the best dog in the entire world.');
-  console.log(question1 + '. The user was right, I do have a dog');
+  console.log(questionDog + '. The user was right, I do have a dog');
 }
-else if (question1 === 'NO' || question1 === 'N') {
+else if (questionDog === 'NO' || questionDog === 'N') {
   alert('Incorrect, I do have a dog. His nickname is Mr. Ruffertons.');
-  console.log(question1 + '. The user was wrong, I do have a dog');
+  console.log(questionDog + '. The user was wrong, I do have a dog');
 }
-var question2 = prompt('Am I from Washington?').toUpperCase();
-if (question2 === 'NO' || question2 === 'N') {
+var questionState = prompt('Am I from Washington?').toUpperCase();
+if (questionState === 'NO' || questionState === 'N') {
   alert('Correct, I moved to Washington from Colorado 10 years ago');
-  console.log(question2 + '. The user was right');
+  console.log(questionState + '. The user was right');
 }
-else if (question2 === 'YES' || question2 === 'Y') {
+else if (questionState === 'YES' || questionState === 'Y') {
   alert('Nope, I am from Colorado.');
-  console.log(question2 + '. The user was wrong');
+  console.log(questionState + '. The user was wrong');
 }
 
-var question3 = prompt('Am I a vegetarian?').toUpperCase();
-if (question3 === 'YES' || question3 === 'Y') {
+var questionVeg = prompt('Am I a vegetarian?').toUpperCase();
+if (questionVeg === 'YES' || questionVeg === 'Y') {
   alert('That is correct.');
-  console.log(question3 + '. The user is correct');
+  console.log(questionVeg + '. The user is correct');
 }
-else if (question3 === 'NO' || question3 === 'N') {
+else if (questionVeg === 'NO' || questionVeg === 'N') {
   alert('Wrong, I have been a vegetarian since college');
-  console.log(question3 + '. The user was wrong');
+  console.log(questionVeg + '. The user was wrong');
 }
 
-var question4 = prompt('Do I have a favorite color?').toUpperCase();
-if (question4 === 'YES' || question4 === 'Y') {
+var questionColor = prompt('Do I have a favorite color?').toUpperCase();
+if (questionColor === 'YES' || questionColor === 'Y') {
   alert('Yep! My favorite color is green.');
-  console.log(question4 + '. The user was right');
+  console.log(questionColor + '. The user was right');
 }
-else if (question4 === 'NO' || question4 === 'N') {
+else if (questionColor === 'NO' || questionColor === 'N') {
   alert('Wrong, my favorite color is green.');
-  console.log(question4 + '. The user was wrong');
+  console.log(questionColor + '. The user was wrong');
 }
 
-var question5 = prompt('Do you want to keep playing?').toUpperCase();
-if (question5 === 'NO' || question5 === 'N') {
+var keepPlaying = prompt('Do you want to keep playing?').toUpperCase();
+if (keepPlaying === 'NO' || keepPlaying === 'N') {
   alert('Good, I am all out of questions.');
-  console.log(question5 + '. The user was wrong');
+  console.log(keepPlaying + '. The user was wrong');
 }
-else if (question5 === 'YES' || question5 === 'Y') {
+else if (keepPlaying === 'YES' || keepPlaying === 'Y') {
   alert('Too bad. I am all out of questions');
-  console.log(question5 + '. The user was right');
+  console.log(keepPlaying + '. The user was right');
 }
