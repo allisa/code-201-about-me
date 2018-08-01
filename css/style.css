@@ -1,4 +1,19 @@
+body {
+    background-color: #E2F2F0;
+    font: Helevetica, sans-serif;
+}
+
 h1 {
     text-align: center;
-    color: navy;
+    color: #002127;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #307267;
+    text-decoration: underline;
+}
+
+p {
+    color: #002127
 }
