@@ -1,20 +1,40 @@
 body {
-    background-color: #E2F2F0;
-    font: Helevetica, sans-serif;
-}
-
-h1 {
-    text-align: center;
-    color: #002127;
-    text-decoration: underline;
-    
+    background-color: rgb(204, 204, 204);
+    font-family: Helevetica, sans-serif;
 }
 
 h2 {
+    text-align: center;
+    color: #002127;
+    text-decoration: underline;
+    margin: 20px; 
+}
+
+.name  {
+    background-color: #04836e;
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
     color: #307267;
     text-decoration: underline;
+    margin: 10px 0;
 }
 
 p {
-    color: #002127
+    color: #002127;
+}
+.visited {
+    text-decoration: line-through;
+}
+
+li {
+    padding: 5px 0;
+}
+main {
+    margin: 0 50px;
 }

@@ -62,7 +62,7 @@ while(guessesLeft >= 0) {
     break;
   }
 
-  var siblingGuess = prompt('how many siblings do i have?');
+  var siblingGuess = prompt('How many siblings do I have?');
 
   if (siblingGuess > 2) {
     guessesLeft --;
@@ -117,4 +117,4 @@ for ( var colorGuesses = 6; colorGuesses >0; colorGuesses--) {
 
 //alert to give user the total number of correct answers they got
 alert('You got ' + correctAnswer + ' out of 7 answers correct. Thanks for playing!');
-console.log(correctAnswer);
+console.log('The user guessed ' + correctAnswer + ' out of 7 answers correctly.');
