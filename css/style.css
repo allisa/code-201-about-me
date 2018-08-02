@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(235, 235, 235);
     font-family: Helevetica, sans-serif;
 }
 
@@ -37,4 +37,12 @@ li {
 }
 main {
     margin: 0 50px;
+}
+ol li {
+    list-style-type: decimal; 
+    margin-left: 20px;
+}
+ul li {
+    list-style-type: square;
+    margin-left: 20px;
 }

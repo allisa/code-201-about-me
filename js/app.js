@@ -103,8 +103,13 @@ var favColors = ['purple', 'green', 'blue', 'teal', 'gray'];
 for ( var colorGuesses = 6; colorGuesses >0; colorGuesses--) {
   var favColorGuess = prompt('Guess one of my favorite colors');
 
+  if (colorGuesses === 0) {
+    alert(' You are out of guesses. My favorite colors are: purple, green, blue, teal, and gray.');
+    break;
+  }
+
   if (favColors.includes(favColorGuess)) {
-    alert('Yes, that is one of my favorite colors');
+    alert('Yes, that is one of my favorite colors. These are all my favorite colors: purple, green, blue, teal, and gray.');
     correctAnswer++;
     console.log(favColorGuess + '. The user guessed correctly');
     break;
